@@ -3,8 +3,6 @@ package com.cjbdi.service.impl;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.cjbdi.fw.base.service.api.service.AService;
 import com.cjbdi.fw.base.service.api.service.BService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 /**

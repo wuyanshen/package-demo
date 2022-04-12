@@ -1,0 +1,7 @@
+### A服务调用A服务接口
+GET http://localhost:8002/a/hello/a
+
+### A服务调用B服务接口
+GET http://localhost:8002/a/hello/b
+
+###

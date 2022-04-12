@@ -2,7 +2,6 @@ package com.cjbdi.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.cjbdi.fw.base.service.api.service.BService;
-import org.springframework.stereotype.Component;
 
 /**
  * @description 描述
@@ -10,7 +9,6 @@ import org.springframework.stereotype.Component;
  * @author  wuyanshen
  */
 @Service
-@Component
 public class BServiceImpl implements BService {
 
     @Override
