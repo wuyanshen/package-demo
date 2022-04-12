@@ -19,12 +19,6 @@
             <groupId>com.lvcoding</groupId>
             <version>1.0</version>
         </dependency>
-
-        <dependency>
-            <artifactId>service-b</artifactId>
-            <groupId>com.lvcoding</groupId>
-            <version>1.0</version>
-        </dependency>
     </dependencies>
 
     <build>

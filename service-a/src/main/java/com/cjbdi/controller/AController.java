@@ -1,5 +1,6 @@
 package com.cjbdi.controller;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.cjbdi.fw.base.service.api.service.AService;
 import com.cjbdi.fw.base.service.api.service.BService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,13 +20,15 @@ public class AController {
     @Autowired
     private AService aService;
 
-    @Autowired
+    @Reference
     private BService bService;
+
 
     @GetMapping("hello/a")
     public String helloA() {
         return aService.helloA();
     }
+
 
     @GetMapping("hello/b")
     public String helloB() {
